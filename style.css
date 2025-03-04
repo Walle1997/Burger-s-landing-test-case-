@@ -37,8 +37,10 @@ img {
 }
 
 .container {
-    max-width: 1140px;
+    box-sizing: border-box;
+    max-width: 1170px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .btn {
@@ -58,6 +60,13 @@ img {
 .btn:hover {
     opacity: 0.8;
 }
+
+.btn--small {
+    width: 141px;
+    height: 39px;
+    font-size: 12px;
+}
+
 
 .header {
     padding: 25px 0;
@@ -174,6 +183,139 @@ img {
     font-size: 16px;
     opacity: 0.7;
 }
+/*! Order*/
+
+.order {
+    background: #312F30;
+    padding: 60px 0;
+
+}
+
+.order .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 90px;
+}
+
+.order__img {
+    max-width: 470px;
+}
+
+.order__text {
+    max-width: 360px;
+}
+
+.order__title {
+    font-size: 44px;
+    margin-bottom: 25px;
+}
+
+.order__desc {
+    opacity: 0.7;
+    margin-bottom: 15px;
+}
+
+.order__price {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: #F6762C;
+}
+
+.order__price--old {
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-decoration-line: line-through;
+    color: #F6762C;
+    opacity: 0.5;
+    font-size: 16px;
+}
+
+.order__price + .order__price {
+    margin-left: 3px;
+}
+
+.order .btn {
+    margin-top: 10px;
+}
+
+/*! Cards*/
+
+.product {
+    padding: 150px 0;
+}
+
+.product .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.product__card {
+    box-sizing: border-box;
+    width: 555px;
+    min-height: 300px;
+    padding: 60px 30px 60px 290px;
+    background-color: bisque;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product__card:nth-child(even) {
+    padding-left: 30px;
+    padding-right: 290px;
+}
+
+.product__title {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.product__desc {
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.product__price {
+    font-weight: 500;
+    color: #F6762C;
+    letter-spacing: 0.1em;
+}
+
+.product__price + .product__price {
+    margin-left: 5px;
+}
+
+.product__price--old {
+    opacity: 0.5;
+    text-decoration-line: line-through;
+}
+
+.product .btn {
+    margin-top: 10px;
+}
+
+.card-queen {
+    background-image: url("/images/product-1.jpg");
+    background-repeat: no-repeat;
+}
+
+.card-hut {
+    background-image: url("/images/product-2.jpg");
+}
+.card-king {
+    background-image: url("/images/product-3.jpg");
+}
+
+.card-papa {
+    background-image: url("/images/product-4.jpg");
+}
+
+
 
 
 
