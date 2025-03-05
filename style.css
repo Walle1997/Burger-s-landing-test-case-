@@ -26,8 +26,6 @@ ul {
     margin: 0;
 }
 
-
-
 h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
 }
@@ -80,14 +78,6 @@ img {
     align-items: center;
 }
 
-.header__logo {
-
-}
-
-.header__nav {
-
-}
-
 .header__list {
     display: flex;
     gap: 30px;
@@ -104,10 +94,6 @@ img {
 
 .header__nav a:hover {
     opacity: 0.9;
-}
-
-.main {
-
 }
 
 .welcome {
@@ -142,6 +128,7 @@ img {
 }
 
 /*!Список еды*/
+
 .food-list {
     padding: 100px 0;
 }
@@ -151,9 +138,6 @@ img {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 40px 10px;
-}
-.container{
-
 }
 
 .food-list__card {
@@ -183,12 +167,12 @@ img {
     font-size: 16px;
     opacity: 0.7;
 }
+
 /*! Order*/
 
 .order {
     background: #312F30;
     padding: 60px 0;
-
 }
 
 .order .container {
@@ -328,20 +312,10 @@ img {
     max-width: 880px;
 }
 
-.container {
-
-}
-
-.feedback__img {
-
-}
-
 .feedback__text {
     margin: 0;
     text-align: center;
     width: 370px;
-    /* display: flex;
-    flex-direction: column; */
 }
 
 .feedback__text::before {
@@ -382,10 +356,6 @@ img {
 .download__title {
     font-weight: 500;
     font-size: 40px;
-}
-
-.btn {
-
 }
 
 /*! Footer*/
@@ -447,46 +417,22 @@ img {
 
 .footer__link-mail::before {
     content: url("./images/icons/mail.svg");
-
 }
 
 .footer__link-web::before {
     content: url("./images/icons/global.svg");
-
 }
 
-.footer__nav {
-
-}
 
 .footer__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
-
-.footer__list-title {
-
-}
-
-.footer__inner-list {
-
-}
-
 .footer__list-item + .footer__list-item {
     margin-top: 15px;
-}
-
-.footer__socials {
-
 }
 
 .footer__socials-link + .footer__socials-link {
     margin-left: 7px;
 }
-
-
-
-
-
-
