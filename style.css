@@ -288,7 +288,7 @@ img {
 }
 
 .card-queen {
-  background-image: url("/images/product-1.jpg");
+  background-image: url("./images/food-list-1.jpg");
   background-repeat: no-repeat;
 }
 
