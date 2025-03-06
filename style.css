@@ -293,14 +293,14 @@ img {
 }
 
 .card-hut {
-  background-image: url("/images/product-2.jpg");
+  background-image: url("./images/product-2.jpg");
 }
 .card-king {
-  background-image: url("/images/product-3.jpg");
+  background-image: url("./images/product-3.jpg");
 }
 
 .card-papa {
-  background-image: url("/images/product-4.jpg");
+  background-image: url("./images/product-4.jpg");
 }
 
 /*!Feedback*/
