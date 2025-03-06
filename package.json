@@ -91,7 +91,6 @@
     "get-symbol-description": "^1.1.0",
     "glob": "^7.2.3",
     "glob-parent": "^6.0.2",
-    "globals": "^16.0.0",
     "globalthis": "^1.0.4",
     "gopd": "^1.2.0",
     "graphemer": "^1.4.0",
@@ -230,8 +229,11 @@
   },
   "devDependencies": {
     "@eslint/create-config": "^1.0.0",
-    "eslint": "^8.57.0",
-    "prettier": "^3.5.3"
+    "@eslint/js": "^9.21.0",
+    "eslint": "^8.57.1",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3",
+    "typescript-eslint": "^8.26.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
